@@ -17,9 +17,25 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D15();
+            D16();
 
             Console.ReadLine();
+        }
+
+        static void D16()
+        {
+            string[] tilbod = File.ReadLines("D16.txt", Encoding.Default).Where(l => l.StartsWith("*")).ToArray();
+
+            Console.WriteLine("Frábær 3 fyrir 2 tilboð:");
+
+            foreach (string t in tilbod)
+            {
+                List<string> o = t.Split(' ').ToList();
+                o.RemoveAt(0);
+                int k = o.Last().ToInt();
+                o.RemoveAt(o.Count - 1);
+                Console.WriteLine(String.Join(" ", o.ToArray()) + " - " + (k * 2) + " krónur");
+            }
         }
 
         static void D15()
