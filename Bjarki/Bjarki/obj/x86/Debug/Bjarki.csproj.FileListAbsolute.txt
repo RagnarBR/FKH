@@ -1,0 +1,8 @@
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\bin\Debug\Bjarki.exe
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\bin\Debug\Bjarki.pdb
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\bin\Debug\SharpBag.dll
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\bin\Debug\MySql.Data.dll
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\bin\Debug\SharpBag.pdb
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\obj\x86\Debug\Bjarki.exe
+C:\Users\Bjarki\Desktop\Projects\Forritun\ForritunarKeppnin\BetaAefing\Bjarki\Bjarki\obj\x86\Debug\Bjarki.pdb
