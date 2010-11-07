@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using SharpBag;
+using SharpBag.Strings;
+using SharpBag.IO;
+using SharpBag.FK;
+using SharpBag.Math;
+using SharpBag.Math.Converters;
+using System.IO;
 
 namespace Bjarki
 {
@@ -9,7 +16,7 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D1B();
+            D2();
 
             Console.ReadLine();
         }
@@ -32,6 +39,24 @@ namespace Bjarki
             string s = Console.ReadLine();
 
             Console.WriteLine(String.Join(" ", s.ToCharArray()));
+        }
+
+        static void D2()
+        {
+            string s = File.ReadAllText("D2.txt");
+
+            int n = 1;
+            s.Split(' ').Select(i => i.ToInt()).ForEach(i =>
+                {
+                    Console.Write(n++ + ": " + i + "\t");
+
+                    for (int j = 0; j < i; j++)
+                    {
+                        Console.Write("*");
+                    }
+
+                    Console.WriteLine();
+                });
         }
     }
 }
