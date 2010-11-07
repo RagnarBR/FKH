@@ -16,9 +16,49 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D11();
+            D12();
 
             Console.ReadLine();
+        }
+
+        static void D12()
+        {
+            Console.Write("Línufjöldi: ");
+            int l = Console.ReadLine().ToInt();
+            Console.Write("Dálkafjöldi: ");
+            int d = Console.ReadLine().ToInt();
+            Console.WriteLine();
+
+            for (int nl = 1; nl <= l * 2 + 1; nl++)
+            {
+                for (int nd = 1; nd <= d * 3 + 1; nd++)
+                {
+                    if (nl % 2 == 0)
+                    {
+                        if ((nd % 3) % 2 == 0 || (nd % 3) == 0)
+                        {
+                            Console.Write(" ");
+                        } 
+                        else
+                        {
+                            Console.Write("|");
+                        }
+                    }
+                    else
+                    {
+                        if ((nd % 3) % 2 == 0 || (nd % 3) == 0)
+                        {
+                            Console.Write("-");
+                        }
+                        else
+                        {
+                            Console.Write("X");
+                        }
+                    }
+                }
+
+                Console.WriteLine();
+            }
         }
 
         static void D11()
