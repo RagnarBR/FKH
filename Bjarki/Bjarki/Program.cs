@@ -16,9 +16,44 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D10();
+            D11();
 
             Console.ReadLine();
+        }
+
+        static void D11()
+        {
+            Console.Write("klukkustund: ");
+            int klst = Console.ReadLine().ToInt();
+            Console.Write("mínúta: ");
+            int min = Console.ReadLine().ToInt();
+            Console.Write("sekúnta: ");
+            int sek = Console.ReadLine().ToInt();
+
+            while (sek > 59)
+            {
+                min++;
+                sek -= 60;
+            }
+
+            while (min > 59)
+            {
+                klst++;
+                min -= 60;
+            }
+
+            while (klst > 23)
+            {
+                klst -= 24;
+            }
+
+            Console.WriteLine(klst + ":" + NullEfMinnaEnTiu(min) + ":" + NullEfMinnaEnTiu(sek));
+        }
+
+        static string NullEfMinnaEnTiu(int i)
+        {
+            if (i < 10) return "0" + i;
+            else return i.ToString();
         }
 
         static void D10()
