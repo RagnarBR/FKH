@@ -16,7 +16,7 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D3();
+            D4();
 
             Console.ReadLine();
         }
@@ -73,6 +73,20 @@ namespace Bjarki
             int s = t;
 
             Console.WriteLine(new String('*', s) + new String('X', x) + new String('C', c));
+        }
+
+        static void D4()
+        {
+            Console.Write("Fyrsta tala? ");
+            int f = Console.ReadLine().ToInt();
+
+            Console.Write("Síðasta tala? ");
+            int s = Console.ReadLine().ToInt();
+
+            Console.Write("Veldi ");
+            int v = Console.ReadLine().ToInt();
+
+            Console.WriteLine("Niðurstaða: " + f.To(s).Sum(i => Math.Pow(i, v)));
         }
     }
 }
