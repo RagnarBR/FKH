@@ -16,9 +16,18 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D5();
+            D6();
 
             Console.ReadLine();
+        }
+
+        static void D6()
+        {
+            Console.Write("Hversu margar stjörnur í hlið þríhyrningsins? ");
+            int l = Console.ReadLine().ToInt();
+
+            Console.WriteLine();
+            Console.WriteLine(DrawObjects.Triangle(l, "*", " ", DrawObjects.TriangleType.TopRight));
         }
 
         static void D5()
