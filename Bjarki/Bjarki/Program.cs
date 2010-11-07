@@ -16,9 +16,57 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D9();
+            D10();
 
             Console.ReadLine();
+        }
+
+        static void D10()
+        {
+            string file = null;
+
+            do
+            {
+                if (file != null) Console.WriteLine("Skráin " + file + " er ekki til, sláðu inn nafn á skrá sem er til.");
+                Console.Write("Skrá sem inniheldur texta: ");
+                file = Console.ReadLine();
+            } while (file == "$" || !File.Exists(file));
+
+            if (file != "$" && File.Exists(file))
+            {
+                //Console.WriteLine("Skráin inniheldur " + File.ReadAllText(file, Encoding.Default).Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Where(s => s.ToCharArray().All(c => Char.IsLetterOrDigit(c) || new char[] { 'é', 'ý', 'ú', 'í', 'ó', 'ð', 'ö', 'á', 'æ', 'þ' }.Contains(c.ToLower()))).Count() + " orð.");
+
+                StreamReader sr = new StreamReader(file, Encoding.Default);
+                string innihald = sr.ReadToEnd().Replace("\r\n", " ").Replace("\n", " ");
+                sr.Close();
+
+                while (innihald.Contains("  "))
+                {
+                    innihald = innihald.Replace("  ", " ");
+                }
+
+                string[] ord = innihald.Split(' ');
+                int morgord = 0;
+
+                foreach (string o in ord)
+                {
+                    bool erOrd = false;
+                    for (int i = 0; i < o.Length; i++)
+                    {
+                        if (Char.IsLetterOrDigit(o[i]) || new string[] { "á", "í", "ó", "ú", "ý", "é", "ð", "ö", "æ", "þ" }.Contains(o[i].ToString().ToLower()))
+                        {
+                            erOrd = true;
+                        }
+                    }
+
+                    if (erOrd)
+                    {
+                        morgord++;
+                    }
+                }
+
+                Console.WriteLine("Skráin inniheldur " + morgord + " orð.");
+            }
         }
 
         static void D9()
