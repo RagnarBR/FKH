@@ -17,9 +17,26 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D18();
+            D19();
 
             Console.ReadLine();
+        }
+
+        static void D19()
+        {
+            // "á", "í", "ó", "ú", "ý", "é", "ð", "ö", "æ", "þ"
+
+            string s = File.ReadAllText("D19.txt", Encoding.Default);
+
+            var q = from c in s.ToCharArray()
+                    group c by c.ToLower() into g
+                    let st = g.First()
+                    let count = g.Count()
+                    where Char.IsLetter(st) || new char[] { 'á', 'í', 'ó', 'ú', 'ý', 'é', 'ð', 'ö', 'æ', 'þ' }.Contains(st)
+                    orderby count descending, st
+                    select new { st, count };
+
+            q.ForEach(st => Console.WriteLine(st.st + ": " + st.count));
         }
 
         static void D18()
