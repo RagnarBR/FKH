@@ -1,0 +1,7 @@
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Beta_2010_08\bin\Debug\Beta_2010_08.exe
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Beta_2010_08\bin\Debug\Beta_2010_08.pdb
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Beta_2010_08\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Beta_2010_08\obj\x86\Debug\Beta_2010_08.exe
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Beta_2010_08\obj\x86\Debug\Beta_2010_08.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_08\Beta_2010_08\obj\x86\Debug\Beta_2010_08.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_08\Beta_2010_08\obj\x86\Debug\Beta_2010_08.pdb
