@@ -17,9 +17,26 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D14();
+            D15();
 
             Console.ReadLine();
+        }
+
+        static void D15()
+        {
+            Console.Write("Strengur sem leita á í: ");
+            string s = Console.ReadLine();
+            Console.Write("Strengur sem leita á að: ");
+            string l = Console.ReadLine();
+
+            if (s.Contains(l))
+            {
+                Console.WriteLine("Textinn " + l + " er í strengnum " + s);
+            }
+            else
+            {
+                Console.WriteLine("Textinn " + l + " er ekki í strengnum " + s);
+            }
         }
 
         static void D14()
