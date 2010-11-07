@@ -9,7 +9,7 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D1();
+            D1B();
 
             Console.ReadLine();
         }
@@ -24,6 +24,14 @@ namespace Bjarki
                 Console.Write(s[i]);
                 Console.Write(" ");
             }
+        }
+
+        static void D1B()
+        {
+            Console.Write("Nafn: ");
+            string s = Console.ReadLine();
+
+            Console.WriteLine(String.Join(" ", s.ToCharArray()));
         }
     }
 }
