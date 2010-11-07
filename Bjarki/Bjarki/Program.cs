@@ -16,9 +16,29 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D7();
+            D8();
 
             Console.ReadLine();
+        }
+
+        static void D8()
+        {
+            Console.Write("Upphafsupphæð: ");
+            int u = Console.ReadLine().ToInt();
+            Console.Write("Árleg viðbót: ");
+            int v = Console.ReadLine().ToInt();
+            Console.Write("Vextir í prósentum: ");
+            int p = Console.ReadLine().ToInt();
+            Console.Write("Fjöldi ára: ");
+            int a = Console.ReadLine().ToInt();
+
+            for (int i = 0; i < a; i++)
+            {
+                u += u / p;
+                if (i > 0) u += v;
+            }
+
+            Console.WriteLine("Lokaupphæð er " + u);
         }
 
         static void D7()
