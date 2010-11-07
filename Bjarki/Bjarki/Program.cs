@@ -17,9 +17,26 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D13();
+            D14();
 
             Console.ReadLine();
+        }
+
+        static void D14()
+        {
+            Console.Write("Póstnúmer: ");
+            int tala = Console.ReadLine().ToInt();
+
+            int tsumma = tala.ToString().ToCharArray().Sum(i => Convert.ToInt32(i.ToString()));
+
+            int t = 0;
+
+            while ((tsumma + t) % 10 != 0)
+            {
+                t++;
+            }
+
+            Console.WriteLine("Vartalan er " + t);
         }
 
         static void D13()
