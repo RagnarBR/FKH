@@ -16,9 +16,37 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D8();
+            D9();
 
             Console.ReadLine();
+        }
+
+        static void D9()
+        {
+            Console.Write("Texti: ");
+            string s = Console.ReadLine();
+
+            s = s.ReplaceAll("  ", " ").Trim().ToLower();
+            string n = "";
+
+            foreach (string o in s.Split(' '))
+            {
+                for (int i = 0; i < o.Length; i++)
+                {
+                    if (i == 0 && (n.EndsWith(". ") || n == ""))
+                    {
+                        n += o[i].ToUpper();
+                    }
+                    else
+                    {
+                        n += o[i];
+                    }
+                }
+
+                n += ' ';
+            }
+
+            Console.WriteLine(n);
         }
 
         static void D8()
