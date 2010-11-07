@@ -17,41 +17,36 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D17();
+            D18();
 
             Console.ReadLine();
+        }
+
+        static void D18()
+        {
+            Console.Write("Farþegafjöldi: ");
+            int n = Console.ReadLine().ToInt();
+
+            var q = from r20 in 0.To(3)
+                    from r30 in 0.To(2)
+                    from r60 in 0.To(3)
+                    let sum = r20 * 20 + r30 * 30 + r60 * 60
+                    let r = r20 + r30 + r60
+                    where sum >= n
+                    orderby sum - n
+                    select new { r20, r30, r60, sum };
+
+            var b = q.First();
+
+            if (b.r60 > 0) Console.WriteLine(b.r60 + " stk 60 manna rúta");
+            if (b.r30 > 0) Console.WriteLine(b.r30 + " stk 30 manna rúta");
+            if (b.r20 > 0) Console.WriteLine(b.r20 + " stk 20 manna rúta");
         }
 
         static void D17()
         {
             Console.Write("Farþegafjöldi: ");
             int n = Console.ReadLine().ToInt();
-
-            /*int r60 = 0;
-            int r30 = 0;
-            int r20 = 0;
-
-            while (n > 30)
-            {
-                r60++;
-                n -= 60;
-            }
-
-            while (n > 20)
-            {
-                r30++;
-                n -= 30;
-            }
-
-            while (n > 0)
-            {
-                r20++;
-                n -= 20;
-            }
-
-            if (r60 > 0) Console.WriteLine(r60 + " stk 60 manna rúta");
-            if (r30 > 0) Console.WriteLine(r30 + " stk 30 manna rúta");
-            if (r20 > 0) Console.WriteLine(r20 + " stk 20 manna rúta");*/
 
             var q = from r20 in 0.To(3)
                     from r30 in 0.To(2)
@@ -60,7 +55,6 @@ namespace Bjarki
                     let r = r20 + r30 + r60
                     where sum >= n
                     orderby r, sum
-                    //orderby r60 + r30 + r20, r60 descending, r30 descending, r20 descending
                     select new { r20, r30, r60, sum };
 
             var b = q.First();
