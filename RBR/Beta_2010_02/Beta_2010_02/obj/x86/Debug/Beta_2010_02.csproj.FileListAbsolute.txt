@@ -1,0 +1,5 @@
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_02\Beta_2010_02\bin\Debug\Beta_2010_02.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_02\Beta_2010_02\bin\Debug\Beta_2010_02.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_02\Beta_2010_02\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_02\Beta_2010_02\obj\x86\Debug\Beta_2010_02.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\FKH\RBR\Beta_2010_02\Beta_2010_02\obj\x86\Debug\Beta_2010_02.pdb
