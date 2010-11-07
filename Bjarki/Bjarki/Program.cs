@@ -16,9 +16,33 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D6();
+            D7();
 
             Console.ReadLine();
+        }
+
+        static void D7()
+        {
+            Random r = new Random();
+
+            int s = 10000000;
+            var q = from n in 1.To(s)//.AsParallel()
+                    let l = new List<int> { r.Next(1, 7), r.Next(1, 7), r.Next(1, 7), r.Next(1, 7), r.Next(1, 7) }
+                    where IsHouse(l)
+                    select 1;
+
+            Console.WriteLine((decimal)q.Sum() / (decimal)s);
+        }
+
+        static bool IsHouse(List<int> l)
+        {
+            l.Sort();
+
+            if ((l[0] == l[1] && l[2] == l[3] && l[3] == l[4]) || (l[0] == l[1] && l[1] == l[2] && l[3] == l[4]))
+            {
+                return !(l[0] == l[1] && l[1] == l[2] && l[2] == l[3] && l[3] == l[4]);
+            }
+            else return false;
         }
 
         static void D6()
