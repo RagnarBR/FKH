@@ -16,7 +16,7 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D2();
+            D3();
 
             Console.ReadLine();
         }
@@ -57,6 +57,22 @@ namespace Bjarki
 
                     Console.WriteLine();
                 });
+        }
+
+        static void D3()
+        {
+            Console.Write("Tala: ");
+            int t = Console.ReadLine().ToInt();
+
+            int c = t / 50;
+            t %= 50;
+
+            int x = t / 10;
+            t %= 10;
+
+            int s = t;
+
+            Console.WriteLine(new String('*', s) + new String('X', x) + new String('C', c));
         }
     }
 }
