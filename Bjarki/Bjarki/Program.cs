@@ -9,6 +9,7 @@ using SharpBag.FK;
 using SharpBag.Math;
 using SharpBag.Math.Converters;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Bjarki
 {
@@ -16,9 +17,25 @@ namespace Bjarki
     {
         static void Main(string[] args)
         {
-            D12();
+            D13();
 
             Console.ReadLine();
+        }
+
+        static void D13()
+        {
+            Regex rx = new Regex(@"^\(-?[0-9]+,-?[0-9]+\)\(-?[0-9]+,-?[0-9]+\)\(-?[0-9]+,-?[0-9]+\)\(-?[0-9]+,-?[0-9]+\)$");
+
+            Console.WriteLine("Sláið inn textastreng sem inniheldur hnit hornpunkta:");
+            string s = Console.ReadLine();
+            if (rx.IsMatch(s))
+            {
+                Console.WriteLine("þessi textastrengur fylgir reglum.");
+            }
+            else
+            {
+                Console.WriteLine("þessi textastrengur fylgir ekki reglum.");
+            }
         }
 
         static void D12()
@@ -38,7 +55,7 @@ namespace Bjarki
                         if ((nd % 3) % 2 == 0 || (nd % 3) == 0)
                         {
                             Console.Write(" ");
-                        } 
+                        }
                         else
                         {
                             Console.Write("|");
