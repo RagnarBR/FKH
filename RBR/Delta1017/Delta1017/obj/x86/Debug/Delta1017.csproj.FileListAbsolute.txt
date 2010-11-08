@@ -1,0 +1,10 @@
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1017\bin\Debug\Delta1017.exe
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1017\bin\Debug\Delta1017.pdb
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1017\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1017\obj\x86\Debug\Delta1017.exe
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1017\obj\x86\Debug\Delta1017.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1017\Delta1017\obj\x86\Debug\Delta1017.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1017\Delta1017\obj\x86\Debug\Delta1017.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1017\Delta1017\bin\Debug\Delta1017.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1017\Delta1017\bin\Debug\Delta1017.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1017\Delta1017\obj\x86\Debug\ResolveAssemblyReference.cache
