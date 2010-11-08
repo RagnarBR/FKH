@@ -1,0 +1,7 @@
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1003b\bin\Debug\Delta1003b.exe
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1003b\bin\Debug\Delta1003b.pdb
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1003b\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1003b\obj\x86\Debug\Delta1003b.exe
+C:\Users\Ragnar\AppData\Local\Temporary Projects\Delta1003b\obj\x86\Debug\Delta1003b.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1003b\Delta1003b\obj\x86\Debug\Delta1003b.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\Delta 2010\Delta1003b\Delta1003b\obj\x86\Debug\Delta1003b.pdb
