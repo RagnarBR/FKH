@@ -1,0 +1,9 @@
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\bin\Release\CrapsVerkefni.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\bin\Release\CrapsVerkefni.pdb
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\Craps.Form1.resources
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\Craps.Properties.Resources.resources
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\CrapsVerkefni.exe
+C:\Users\Ragnar\Desktop\Tækniskólinn\FOR303 (2010)\FOR303\Craps\CrapsVerkefni\CrapsVerkefni\obj\x86\Release\CrapsVerkefni.pdb
