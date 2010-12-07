@@ -28,46 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.buttonPimpMyText = new System.Windows.Forms.Button();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.btnPimpMyText = new System.Windows.Forms.Button();
+            this.txtOutput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(268, 191);
-            this.textBox1.TabIndex = 0;
-            // 
-            // buttonPimpMyText
-            // 
-            this.buttonPimpMyText.Location = new System.Drawing.Point(96, 209);
-            this.buttonPimpMyText.Name = "buttonPimpMyText";
-            this.buttonPimpMyText.Size = new System.Drawing.Size(75, 23);
-            this.buttonPimpMyText.TabIndex = 1;
-            this.buttonPimpMyText.Text = "button1";
-            this.buttonPimpMyText.UseVisualStyleBackColor = true;
-            this.buttonPimpMyText.Click += new System.EventHandler(this.buttonPimpMyText_Click);
-            // 
+            //
+            // txtInput
+            //
+            this.txtInput.Location = new System.Drawing.Point(12, 12);
+            this.txtInput.Multiline = true;
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(250, 191);
+            this.txtInput.TabIndex = 0;
+            //
+            // btnPimpMyText
+            //
+            this.btnPimpMyText.Location = new System.Drawing.Point(275, 96);
+            this.btnPimpMyText.Name = "btnPimpMyText";
+            this.btnPimpMyText.Size = new System.Drawing.Size(92, 23);
+            this.btnPimpMyText.TabIndex = 1;
+            this.btnPimpMyText.Text = "Pimp My Text";
+            this.btnPimpMyText.UseVisualStyleBackColor = true;
+            this.btnPimpMyText.Click += new System.EventHandler(this.ButtonPimpMyTextClick);
+            //
+            // txtOutput
+            //
+            this.txtOutput.Location = new System.Drawing.Point(378, 12);
+            this.txtOutput.Multiline = true;
+            this.txtOutput.Name = "txtOutput";
+            this.txtOutput.Size = new System.Drawing.Size(242, 191);
+            this.txtOutput.TabIndex = 0;
+            //
             // Form1
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 266);
-            this.Controls.Add(this.buttonPimpMyText);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(632, 219);
+            this.Controls.Add(this.btnPimpMyText);
+            this.Controls.Add(this.txtOutput);
+            this.Controls.Add(this.txtInput);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
-        #endregion
+        #endregion Windows Form Designer generated code
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button buttonPimpMyText;
+        private System.Windows.Forms.TextBox txtInput;
+        private System.Windows.Forms.Button btnPimpMyText;
+        private System.Windows.Forms.TextBox txtOutput;
     }
 }
-

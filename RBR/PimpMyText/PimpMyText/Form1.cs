@@ -1,34 +1,44 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace PimpMyText
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
         string[] colorStart = new string[] { @"[color=red]", @"[color=blue]", @"[color=cyan]", @"[color=green]", @"[color=black]", @"[color=pink]", @"[color=yellow]", @"[color=purple]"};
         string colorEnd = @"[/color]";
         string temp = null;
         Random rand = new Random();
         int currentColor = 0, previousColor = 100;
 
+=======
+>>>>>>> 2e7af0ee34f3f638b4693d6a0c44c511bdf6c428
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void buttonPimpMyText_Click(object sender, EventArgs e)
-        {
-            temp = null;
-            //temp = textBox1.Text; 
+        private const string _Open = "[color={0}]";
+        private const string _Close = "[/color]";
+        private readonly string[] _Colors = new[] { "red", "blue", "cyan", "green", "black", "yellow", "pink", "purple" };
+        private string _LastColor;
+        private readonly Random Rand = new Random();
 
-            for (int i = 0; i < textBox1.Text.Length; i++)
+        private void ButtonPimpMyTextClick(object sender, EventArgs e)
+        {
+            const string s = _Open + "{1}" + _Close;
+            this.txtOutput.Text = String.Join("", this.txtInput.Text.Select(c => Char.IsWhiteSpace(c) ? c : String.Format(s, NewColor(), c)).ToArray());
+        }
+
+        private string NewColor()
+        {
+            string n;
+
+            do
             {
+<<<<<<< HEAD
                 if (textBox1.Text[i] != ' ')
                 {
                     for (int x = 0; x < textBox1.Text.Length; x++) //x = 0
@@ -45,9 +55,14 @@ namespace PimpMyText
                 {
                     temp += ' '; 
                 }
+=======
+                n = this._Colors[Rand.Next(0, this._Colors.Length)];
+>>>>>>> 2e7af0ee34f3f638b4693d6a0c44c511bdf6c428
             }
+            while (n == _LastColor);
 
-            textBox1.Text = temp;
+            _LastColor = n;
+            return n;
         }
 
         public void NextColor()
