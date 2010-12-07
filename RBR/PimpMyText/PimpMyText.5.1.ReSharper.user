@@ -1,0 +1,35 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.Designer.cs" caret="61" fromTop="4" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="801" fromTop="24" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="801" fromTop="20" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="135" fromTop="6" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="801" fromTop="19" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="62" fromTop="2" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.Designer.cs" caret="61" fromTop="4" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="725" fromTop="21" />
+      <File id="DA8E93DB-820E-49F5-99F5-AEE20130CDC5/f:Form1.cs" caret="360" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
