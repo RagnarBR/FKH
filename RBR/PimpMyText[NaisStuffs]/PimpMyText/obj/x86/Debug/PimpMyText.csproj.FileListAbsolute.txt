@@ -1,0 +1,20 @@
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\bin\Debug\PimpMyText.exe
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\bin\Debug\PimpMyText.pdb
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\PimpMyText.Form1.resources
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\PimpMyText.Properties.Resources.resources
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\PimpMyText.exe
+C:\Documents and Settings\Ragnar\Local Settings\Application Data\Temporary Projects\PimpMyText\obj\x86\Debug\PimpMyText.pdb
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\PimpMyText.exe
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\PimpMyText.pdb
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\bin\Debug\PimpMyText.exe
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\bin\Debug\PimpMyText.pdb
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\PimpMyText.Form1.resources
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\PimpMyText.Properties.Resources.resources
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Ragnar\Desktop\Beginning Visual C# 2010\Kóði\PimpMyText\PimpMyText\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ragnar\Documents\My Dropbox\Taekniskolinn\Tækniskólinn\Beginning Visual C# 2010\PimpMyText\PimpMyText\obj\x86\Debug\PimpMyText.exe
+C:\Users\Ragnar\Documents\My Dropbox\Taekniskolinn\Tækniskólinn\Beginning Visual C# 2010\PimpMyText\PimpMyText\obj\x86\Debug\PimpMyText.pdb
