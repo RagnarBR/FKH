@@ -20,7 +20,7 @@ namespace PimpMyText
         private void ButtonPimpMyTextClick(object sender, EventArgs e)
         {
             const string s = _Open + "{1}" + _Close;
-            this.txtOutput.Text = String.Join("", this.txtInput.Text.Select(c => String.Format(s, NewColor(), c)).ToArray());
+            this.txtOutput.Text = String.Join("", this.txtInput.Text.Select(c => c == ' ' ? " " : String.Format(s, NewColor(), c)).ToArray());
         }
 
         private string NewColor()
